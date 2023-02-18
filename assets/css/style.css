@@ -16,6 +16,16 @@ main {
     min-width: 100%;
 }
 
+.row {
+    align-content: center;
+    height: 100vh;
+}
+
+.content-container {
+    height: 40rem;
+    width: 25rem;
+}
+
 h1 {
     text-transform: uppercase;
 }
