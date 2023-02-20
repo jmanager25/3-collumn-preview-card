@@ -34,6 +34,7 @@ h1 {
     font-size: 3.5rem;
 }
 
+/* Sedans ----------------------------- */
 .sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 1rem 0 0 1rem;
@@ -43,6 +44,8 @@ h1 {
     color:  hsl(31, 77%, 52%);
 }
 
+/* SUVS ----------------------------- */
+
 .suvs {
     background-color: hsl(184, 100%, 22%);
 }
@@ -50,6 +53,8 @@ h1 {
 .suvs button {
     color:  hsl(184, 100%, 22%);
 }
+
+/* Luxury ----------------------------- */
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
