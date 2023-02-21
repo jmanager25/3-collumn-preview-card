@@ -12,17 +12,13 @@ html {
 
 main {
     background-color: hsl(0, 0%, 95%);
-    height: 100vh;
-    min-width: 100%;
 }
 
 .row {
-    align-content: center;
-    height: 100vh;
+    padding: 6rem 0;
 }
 
 .content-container {
-    height: 40rem;
     width: 25rem;
     color: hsla(0, 0%, 100%, 0.75);
 }
@@ -35,6 +31,7 @@ h1 {
 }
 
 /* Sedans ----------------------------- */
+
 .sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 1rem 0 0 1rem;
@@ -87,4 +84,21 @@ p {
     background-color: inherit;
     color: hsl(0, 0%, 95%);
     border: solid 0.25rem hsl(0, 0%, 95%);
+}
+
+/* Media Queries ----------------------------- */
+
+@media(min-width: 750px) {
+
+    .main {
+        background-color: hsl(0, 0%, 95%);
+        height: 100vh;
+        min-width: 100%;
+    }
+
+    .row {
+        align-content: center;
+        height: 100vh;
+    }
+
 }
