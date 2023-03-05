@@ -60,7 +60,7 @@ p {
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .sedans button {
@@ -81,7 +81,7 @@ p {
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .luxury button {
@@ -124,11 +124,11 @@ p {
     }
 
     .sedans {
-        border-radius: 1rem 0 0 1rem;
+        border-radius: 0.5rem 0 0 0.5rem;
     }
 
     .luxury {
-        border-radius: 0 1rem 1rem 0rem;
+        border-radius: 0 0.5rem 0.5rem 0rem;
     }
 
 }
