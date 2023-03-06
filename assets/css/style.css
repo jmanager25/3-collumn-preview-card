@@ -12,6 +12,7 @@ html {
 
 main {
     background-color: hsl(0, 0%, 95%);
+    font-size: 1.3rem;
 }
 
 .row {
@@ -37,8 +38,9 @@ h1 {
 
 p {
     margin: 2rem 3rem;
-    font-size: 1.3rem;
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
 }
 
 .btn {
@@ -93,11 +95,10 @@ p {
 @media(min-width: 540px) {
 
     .row {
-        padding: 6rem 15rem;
+        padding: 6rem 16rem;
     }
     
 }
-
 
 @media(min-width: 850px) {
 
@@ -117,6 +118,10 @@ p {
         width: 27rem;
         height: 40rem;
         padding: 1rem;
+    }
+
+    p {
+        margin: 2rem 3.7rem 2rem 3rem;
     }
 
     .btn {
